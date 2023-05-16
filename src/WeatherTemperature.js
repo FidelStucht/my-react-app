@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 export default function Weathertemperature(props) {
+  // eslint-disable-next-line
   const [unit, setUnit] = useState("celsius");
 
   return (
